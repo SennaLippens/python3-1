@@ -18,12 +18,51 @@ max_van_3(g1, g2, g3)
 
 print("")
 print("opdracht 2")
-woord = "hey"
+woord = input()
 def reverse (woord):
     nieuw_woord = woord[::-1]
     print(nieuw_woord)
 reverse(woord)
-    
-    
-    
-    
+
+print("")
+print("opdracht 3")
+def is_priemgetal(num):
+    if num > 1:
+        for i in range(2,num):
+           if (num % i) == 0:
+               print(num,"is geen priemgetal")
+               break
+        else:
+           print(num,"is een priemgetal")
+    else:
+       print(num,"is geen priemgetal")
+is_priemgetal(7)
+
+print("")
+print("opdracht 4")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
