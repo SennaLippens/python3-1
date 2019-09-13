@@ -40,6 +40,18 @@ is_priemgetal(7)
 
 print("")
 print("opdracht 4")
+woord = "acht"
+def is_palindrome(woord):
+    omgedraaid = woord[::-1]
+    if omgedraaid == woord:
+        print("het is een palindrome")
+    else:
+        print("het is geen palindrome")
+is_palindrome(woord)
+
+    
+    
+    
 
 
 
